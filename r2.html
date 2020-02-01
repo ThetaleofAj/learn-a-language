@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Section2
+        </title>
+         <!-- Helps for better viewing on mobile screen-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <style>
+             body{ background-color:#d7f0c7;
+            font-family:Arial;
+            color:#103b0d;}
+
+             a.two{
+                  position: relative;
+                  top: -63px;
+                  left:-150px;}
+
+             a.three{
+                 position: relative;
+                 top: -126px;
+                 left:120px;}
+
+             a:link{
+                background-color: #7cf569;
+                color: black;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;}
+
+
+             h1{
+                 font-family:Courier;}
+
+             div{
+                background-color:white;
+                border: 1px solid black;
+                padding: 55px;
+                width: 450px;
+                text-align: center;
+                border-radius: 5px;
+                position:fixed;
+                top:40%;
+                left:50%;
+                transform:translate(-50%, -50%);}
+
+            textarea{
+                border-radius:10px;
+                padding:5px;
+                width:200px;
+                border:1px solid black;
+                overflow:auto;
+                text-align:center;}
+
+
+
+
+        </style>
+        <div>
+<!--Random Phrase passes from application.py into this page-->
+        <h1>{{value}}</h1>
+        <textarea name = "comments">    </textarea>
+       <p>
+           <ul>
+               <!--Link to next page (Section3)-->
+            <a href = "r3.html">DONE</a>
+       </ul>
+       </p>
+        <p>
+           <ul class="two">
+               <!-- Link to dictionary page-->
+               <a class="two" href = "reference.html">DICTIONARY</a>
+           </ul>
+       </p>
+       <p>
+           <ul>
+               <!--Link to home page-->
+               <a class="three" href = "/">HOME</a>
+           </ul>
+       </p>
+       </div>
+    </body>
+
+
+</html>
